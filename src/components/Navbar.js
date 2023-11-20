@@ -1,14 +1,13 @@
 'use client';
 
-import { usePathname } from 'next/navigation';
+import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import Logo from './Logo';
-import { TwitterIcon, LinkedinIcon, GithubIcon, CodepenIcon, SlackIcon } from './icons';
-
+import { CodepenIcon, GithubIcon, LinkedinIcon, SlackIcon, TwitterIcon } from './icons';
 
 const CustomLink = ({ href, title, className = '' }) => {
   const pathname = usePathname();
-
 
   return (
     <Link href={href} className={`${className} relative group`}>
@@ -36,22 +35,34 @@ const Navbar = () => {
         <CustomLink href="/contact" title="Contact" className="ml-4" />
       </nav>
 
-      <nav>
-        <Link href="/" target="_blank">
-          <TwitterIcon />
-        </Link>
-        <Link href="/" target="_blank">
-          <LinkedinIcon />
-        </Link>
-        <Link href="/" target="_blank">
+      <nav className="flex items-center justify-center flex-wrap">
+        <motion.a href="https://github.com/Titou360" target="_blank" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mr-3">
           <GithubIcon />
-        </Link>
-        <Link href="/" target="_blank">
+        </motion.a>
+        <motion.a
+          href="https://www.linkedin.com/in/cl%C3%A9ment-felices-30784425a/"
+          target="_blank"
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 mx-3"
+        >
+          <LinkedinIcon />
+        </motion.a>
+        <motion.a href="https://twitter.com/Titou_360" target="_blank" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3">
+          <TwitterIcon />
+        </motion.a>
+        <motion.a href="https://codepen.io/Titou360" target="_blank" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3">
           <CodepenIcon />
-        </Link>
-        <Link href="/" target="_blank">
+        </motion.a>
+        <motion.a
+          href="https://occommunity.slack.com/team/U0508G7V7AM"
+          target="_blank"
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 ml-3"
+        >
           <SlackIcon />
-        </Link>
+        </motion.a>
       </nav>
 
       <div className="absolute left-[50%] top-2 translate-x-[-50%] ">
