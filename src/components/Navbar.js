@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Logo from './Logo';
-import { CodepenIcon, GithubIcon, LinkedinIcon, SlackIcon, TwitterIcon } from './icons';
+import { CodepenIcon, GithubIcon, LinkedinIcon, SlackIcon, TwitterIcon } from './Icons';
 
 const CustomLink = ({ href, title, className = '' }) => {
   const pathname = usePathname();
@@ -15,7 +15,7 @@ const CustomLink = ({ href, title, className = '' }) => {
 
       <span
         className={`
-      h-[2px] inline-block bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300
+      h-[2px] inline-block bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 
       ${pathname === href ? 'w-full' : 'w-0'}
       `}
       >
