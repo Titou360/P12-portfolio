@@ -8,7 +8,6 @@ import { CodepenIcon, GithubIcon, LinkedinIcon, SlackIcon, TwitterIcon } from '.
 
 const CustomLink = ({ href, title, className = '' }) => {
   const pathname = usePathname();
-
   return (
     <Link href={href} className={`${className} relative group`}>
       {title}
@@ -30,9 +29,9 @@ const Navbar = () => {
     <header className="w-full px-32 py-8 font-medium flex items-center justify-between">
       <nav>
         <CustomLink href="/" title="Accueil" className="mr-4" />
-        <CustomLink href="/about" title="A propos" className="mx-4" />
-        <CustomLink href="/projects" title="Projets" className="mx-4" />
-        <CustomLink href="/contact" title="Contact" className="ml-4" />
+        <CustomLink href="/About" title="A propos" className="mx-4" />
+        <CustomLink href="/Projects" title="Projets" className="mx-4" />
+        <CustomLink href="/Contact" title="Contact" className="ml-4" />
       </nav>
 
       <nav className="flex items-center justify-center flex-wrap">
