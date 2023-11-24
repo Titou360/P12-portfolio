@@ -1,10 +1,9 @@
-'use client';
-
-import { motion } from 'framer-motion';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+"use client"
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { CodepenIcon, GithubIcon, LinkedinIcon, SlackIcon, TwitterIcon } from "./Icons";
 import Logo from './Logo';
-import { CodepenIcon, GithubIcon, LinkedinIcon, SlackIcon, TwitterIcon } from './Icons';
+import { usePathname } from 'next/navigation';
 
 const CustomLink = ({ href, title, className = '' }) => {
   const pathname = usePathname();
@@ -24,14 +23,22 @@ const CustomLink = ({ href, title, className = '' }) => {
   );
 };
 
+
 const Navbar = () => {
   return (
     <header className="w-full px-32 py-8 font-medium flex items-center justify-between">
       <nav>
-        <CustomLink href="/" title="Accueil" className="mr-4" />
-        <CustomLink href="/About" title="A propos" className="mx-4" />
-        <CustomLink href="/Projects" title="Projets" className="mx-4" />
-        <CustomLink href="/Contact" title="Contact" className="ml-4" />
+        <CustomLink href="/" className="mr-4"
+          title="Accueil" 
+        />
+        <CustomLink href="/about-me" className="mx-4"
+          title="À propos"
+        />
+        <CustomLink href="/my-projects" className="mx-4"
+          title="Projets" 
+        />
+        <CustomLink href="/contact-me" className="ml-4"
+          title="Contact"/>
       </nav>
 
       <nav className="flex items-center justify-center flex-wrap">
