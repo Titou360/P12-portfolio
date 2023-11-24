@@ -7,8 +7,8 @@ import HireMe from "@/components/HireMe";
 
 export default function Home() {
   return (
-    <div className="flex items-center text-dark w-full min-h-screen">
-      <div className="p-10 flex items-center justify-center gap-4 w-full">
+    <div className="flex items-center text-dark min-h-screen">
+      <div className="p-10 flex items-center justify-center gap-4">
         <div className="w-1/3">
           <Image src={profilPic} alt="Photo de Clément FELICES" className="w-full h-auto shadow-[0px_20px_20px_10px_#00000024]" />
         </div>

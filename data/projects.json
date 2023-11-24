@@ -1,0 +1,125 @@
+{
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Premier pas sur le langage HTML",
+      "cover": "chemin/vers/image1.jpg",
+      "description": "Mise à jour d'un site avec HTML",
+      "tags": ["HTML"],
+      "links": {
+        "codeLink": "lien_vers_code_source1",
+        "demoLink": "lien_vers_demo1"
+      }
+    },
+    {
+      "id": "proj2",
+      "title": "Créer la page d'accueil d'une agence de voyage",
+      "cover": "chemin/vers/image2.jpg",
+      "description": "Créer la page d'accueil de l'agence de voyage Booki",
+      "tags": ["HTML 5 ", "CSS 3 "],
+      "links": {
+        "codeLink": "lien_vers_code_source2",
+        "demoLink": "lien_vers_demo2"
+      }
+    },
+    {
+      "id": "proj3",
+      "title": "Améliorez l'interface d'un site mobile avec des animations CSS",
+      "cover": "chemin/vers/image2.jpg",
+      "description": "Description du projet 2.",
+      "tags": ["HTML 5", "SASS"],
+      "links": {
+        "codeLink": "lien_vers_code_source2",
+        "demoLink": "lien_vers_demo2"
+      }
+    },
+    {
+      "id": "proj4",
+      "title": "Premier pas sur le langage Javascript",
+      "cover": "chemin/vers/image2.jpg",
+      "description": "Rentre le site internet d'une imprimerie dynamique grâce à un slider codé sous JS",
+      "tags": ["Javascript"],
+      "links": {
+        "codeLink": "lien_vers_code_source2",
+        "demoLink": "lien_vers_demo2"
+      }
+    },
+    {
+      "id": "proj5",
+      "title": "Créez une page dynamique avec JavaScript",
+      "cover": "chemin/vers/image2.jpg",
+      "description": "Création d'un site Internet pour une architecte d'intérieur avec un dashboard permettant l'ajout et la suppression de ses projets via une modale",
+      "tags": ["HTML 5", "CSS 3", "Javascript"],
+      "links": {
+        "codeLink": "lien_vers_code_source2",
+        "demoLink": "lien_vers_demo2"
+      }
+    },
+    {
+      "id": "proj6",
+      "title": "Planifiez le développement du site de votre client",
+      "cover": "chemin/vers/image2.jpg",
+      "description": "Mise en place d'un ...",
+      "tags": ["", "", ""],
+      "links": {
+        "codeLink": "lien_vers_code_source2",
+        "demoLink": "lien_vers_demo2"
+      }
+    },
+    {
+      "id": "proj7",
+      "title": "Créez une application web de location immobilière avec React",
+      "cover": "chemin/vers/image2.jpg",
+      "description": "Création d'un site Internet sous React",
+      "tags": ["React", "", ""],
+      "links": {
+        "codeLink": "lien_vers_code_source2",
+        "demoLink": "lien_vers_demo2"
+      }
+    },
+    {
+      "id": "proj8",
+      "title": "Optimisez le référencement d'un site de photographe",
+      "cover": "chemin/vers/image2.jpg",
+      "description": "Optimisation SEO et ... du site de Nina Carducci",
+      "tags": ["HTML", "CSS", "JS", "Schema.org"],
+      "links": {
+        "codeLink": "lien_vers_code_source2",
+        "demoLink": "lien_vers_demo2"
+      }
+    },
+    {
+      "id": "proj9",
+      "title": "Débugguez le site d'une agence d'événementiel",
+      "cover": "chemin/vers/image2.jpg",
+      "description": "Description du projet 2.",
+      "tags": ["", "Outil5", "Outil6"],
+      "links": {
+        "codeLink": "lien_vers_code_source2",
+        "demoLink": "lien_vers_demo2"
+      }
+    },
+    {
+      "id": "proj10",
+      "title": "Implémentez le front-end d'une application bancaire avec React",
+      "cover": "chemin/vers/image2.jpg",
+      "description": "Description du projet 2.",
+      "tags": ["HTML", "CSS", "React"],
+      "links": {
+        "codeLink": "lien_vers_code_source2",
+        "demoLink": "lien_vers_demo2"
+      }
+    },
+    {
+      "id": "proj11",
+      "title": "Créez et publiez votre portfolio",
+      "cover": "chemin/vers/image2.jpg",
+      "description": "Description du projet 2.",
+      "tags": ["React", "Next.JS", "Tailwind CSS"],
+      "links": {
+        "codeLink": "lien_vers_code_source2",
+        "demoLink": "lien_vers_demo2"
+      }
+    }
+  ]
+}

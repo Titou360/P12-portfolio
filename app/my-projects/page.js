@@ -1,12 +1,15 @@
 import AnimatedText from '@/components/AnimatedText';
-import React from 'react'
 
 const Page = () => {
   return (
-    <div className="pt-0 flex items-center text-dark w-full min-h-screen">
-      <AnimatedText className="normal-case" text="Découvrez mes projets" />)
-    </div>
-  );
-}
+    <section id="projects" className="w-full pt-2 mb-6 flex flex-col items-center text-dark">
+        <AnimatedText className="normal-case" text="Découvrez mes projets" />
 
-export default Page
+        <div>
+
+        </div>
+    </section>
+  );
+};
+
+export default Page;

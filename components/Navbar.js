@@ -13,7 +13,7 @@ const CustomLink = ({ href, title, className = '' }) => {
 
       <span
         className={`
-      h-[2px] inline-block bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 
+      h-[2px] inline-block bg-primary absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 
       ${pathname === href ? 'w-full' : 'w-0'}
       `}
       >
@@ -26,19 +26,12 @@ const CustomLink = ({ href, title, className = '' }) => {
 
 const Navbar = () => {
   return (
-    <header className="w-full px-32 py-8 font-medium flex items-center justify-between">
+    <header className="w-full px-32 py-8 font-medium flex items-center justify-between z-10 shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]">
       <nav>
-        <CustomLink href="/" className="mr-4"
-          title="Accueil" 
-        />
-        <CustomLink href="/about-me" className="mx-4"
-          title="À propos"
-        />
-        <CustomLink href="/my-projects" className="mx-4"
-          title="Projets" 
-        />
-        <CustomLink href="/contact-me" className="ml-4"
-          title="Contact"/>
+        <CustomLink href="/" className="mr-4" title="Accueil" />
+        <CustomLink href="/about-me" className="mx-4" title="À propos" />
+        <CustomLink href="/my-projects" className="mx-4" title="Projets" />
+        <CustomLink href="/contact-me" className="ml-4" title="Contact" />
       </nav>
 
       <nav className="flex items-center justify-center flex-wrap">

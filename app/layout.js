@@ -16,10 +16,15 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        <main className="w-screen h-screen relative">
+        <main className="w-full h-full">
           <div
             className="flex items-center w-full h-full"
-            style={{ backgroundImage: `url(${backgroundImage.src})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+            style={{
+              backgroundImage: `url(${backgroundImage.src})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat'
+            }}
           >
             {children}
           </div>
