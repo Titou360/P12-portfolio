@@ -16,13 +16,13 @@ export default function Home() {
         <div className="w-1/2 flex flex-col item-center">
           <AnimatedText className="!text-6xl text-left normal-case" text="Je suis Clément Felices, développeur Web" />
           <p className="italic font-bold text-justify">
-            Après 22 ans d&apos;hôtellerie-restauration, j&apos;ai quitté ce métier passionnant pour me réorienter dans le développement web. <br />
-            Bercé depuis ma plus jeune adolescence dans le monde de l&apos;informatique, le code a toujours été pour moi une fascination.
+            Après 22 ans d&apos;hôtellerie-restauration, j&apos;ai quitté ce métier captivant pour me réorienter dans le développement web. <br />
+            Bercé depuis ma plus jeune adolescence par le monde de l&apos;informatique, il est devenu une passion, le code a toujours été pour moi une fascination et je suis heureux de pouvoir proposer des solutions digitales à mes clients.
           </p>
           <br />
           <p className="text-justify my-4 text-base font-medium">
             Après une reconvertion professionnelle réussie, je me consacre dès maintenant à la transformation d&apos;idées en applications web
-            innovantes. Explorez mes récents projets et articles, mettant en avant mon expertise en React.js et en développement web, où chaque ligne
+            innovantes. Explorez mes récents projets, mettant en avant mon expertise en React.js et en développement web, où chaque ligne
             de code raconte une histoire de créativité et d&apos;efficacité.
           </p>
 

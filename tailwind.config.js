@@ -10,7 +10,8 @@ module.exports = {
         dark: '#1b1b1b',
         light: '#EFF8E2',
         primary: '#E55812',
-        primaryDark: '#58E6D9'
+        primaryDark: '#58E6D9',
+        expanderDark: '#B6BBC4'
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite'

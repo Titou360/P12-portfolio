@@ -1,9 +1,9 @@
+"use client" 
 import AnimatedText from '@/components/AnimatedText';
+import AnimatedNumber from '@/components/AnimatedNumber';
 import Image from 'next/image';
 import Link from 'next/link';
 import profilPic from '../../public/NOBG-clement.webp';
-
-
 
 const Page = () => {
   return (
@@ -30,8 +30,8 @@ const Page = () => {
             en jonglant entre la formation, l&apos;éducation de mes 4 (sic!) enfants et la rénovation de ma maison.
             <br />
             <br />
-            Mon expertise dans la gestion de projets que ce soit pour la rénovation complète de ma maison ou le développement d&apos;une application
-            web, s&apos;est démarquée par l&apos;utilisation efficace d&apos;outils tels que le kanban.
+            Mon expertise dans la gestion de projets que ce soit pour la rénovation complète de mon domicile ou le développement d&apos;une application web,
+            s&apos;est démarquée par l&apos;utilisation efficace d&apos;outils tels que le kanban.
             <br />
             <br />
             Passionné par React, je reste avide de nouvelles technologies pour enrichir mes connaissances en développement.
@@ -45,7 +45,7 @@ const Page = () => {
 
         <div className="flex flex-col items-start justify-between text-lg font-bold uppercase text-dark ml-4">
           <div className="flex flex-col items-start">
-            <span className="inline-block text-7xl font-bold">9</span>
+            <span className="inline-block normal-case text-7xl font-bold"><AnimatedNumber toNumber="9" /></span>
             <h2 className="text-xl bold bg-primary normal-case text-dark/75">mois de formation</h2>
           </div>
 
@@ -55,7 +55,7 @@ const Page = () => {
           </div>
 
           <div className="flex flex-col items-start">
-            <span className="inline-block normal-case text-7xl font-bold">+12</span>
+            <span className="inline-block normal-case text-7xl font-bold">15</span>
             <h2 className="text-xl bold bg-primary normal-case  text-dark/75">certifications reçues</h2>
           </div>
 
@@ -66,7 +66,7 @@ const Page = () => {
 
           <div className="flex flex-col items-start">
             <span className="inline-block normal-case text-7xl font-bold">1000%</span>
-            <h2 className="text-xl bold bg-primary normal-case  text-dark/75">motivation</h2>
+            <h2 className="text-xl bold bg-primary normal-case  text-dark/75"> motivation</h2>
           </div>
         </div>
       </div>

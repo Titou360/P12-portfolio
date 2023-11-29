@@ -5,7 +5,7 @@
       "title": "Premier pas sur le langage HTML",
       "cover": "chemin/vers/image1.jpg",
       "description": "Mise à jour d'un site avec HTML",
-      "tags": ["HTML"],
+      "tags": ["Projet 1"],
       "links": {
         "codeLink": "lien_vers_code_source1",
         "demoLink": "lien_vers_demo1"
@@ -16,7 +16,7 @@
       "title": "Créer la page d'accueil d'une agence de voyage",
       "cover": "chemin/vers/image2.jpg",
       "description": "Créer la page d'accueil de l'agence de voyage Booki",
-      "tags": ["HTML 5 ", "CSS 3 "],
+      "tags": ["HTML", "CSS"],
       "links": {
         "codeLink": "lien_vers_code_source2",
         "demoLink": "lien_vers_demo2"
@@ -27,7 +27,7 @@
       "title": "Améliorez l'interface d'un site mobile avec des animations CSS",
       "cover": "chemin/vers/image2.jpg",
       "description": "Description du projet 2.",
-      "tags": ["HTML 5", "SASS"],
+      "tags": ["HTML", "SASS"],
       "links": {
         "codeLink": "lien_vers_code_source2",
         "demoLink": "lien_vers_demo2"
@@ -49,7 +49,7 @@
       "title": "Créez une page dynamique avec JavaScript",
       "cover": "chemin/vers/image2.jpg",
       "description": "Création d'un site Internet pour une architecte d'intérieur avec un dashboard permettant l'ajout et la suppression de ses projets via une modale",
-      "tags": ["HTML 5", "CSS 3", "Javascript"],
+      "tags": ["HTML", "CSS", "Javascript"],
       "links": {
         "codeLink": "lien_vers_code_source2",
         "demoLink": "lien_vers_demo2"
@@ -82,7 +82,7 @@
       "title": "Optimisez le référencement d'un site de photographe",
       "cover": "chemin/vers/image2.jpg",
       "description": "Optimisation SEO et ... du site de Nina Carducci",
-      "tags": ["HTML", "CSS", "JS", "Schema.org"],
+      "tags": ["HTML", "CSS", "Javascript", "SEO"],
       "links": {
         "codeLink": "lien_vers_code_source2",
         "demoLink": "lien_vers_demo2"
@@ -93,7 +93,7 @@
       "title": "Débugguez le site d'une agence d'événementiel",
       "cover": "chemin/vers/image2.jpg",
       "description": "Description du projet 2.",
-      "tags": ["", "Outil5", "Outil6"],
+      "tags": ["", "", ""],
       "links": {
         "codeLink": "lien_vers_code_source2",
         "demoLink": "lien_vers_demo2"
@@ -104,7 +104,7 @@
       "title": "Implémentez le front-end d'une application bancaire avec React",
       "cover": "chemin/vers/image2.jpg",
       "description": "Description du projet 2.",
-      "tags": ["HTML", "CSS", "React"],
+      "tags": ["HTML", "CSS", "React", "Redux"],
       "links": {
         "codeLink": "lien_vers_code_source2",
         "demoLink": "lien_vers_demo2"
@@ -115,7 +115,7 @@
       "title": "Créez et publiez votre portfolio",
       "cover": "chemin/vers/image2.jpg",
       "description": "Description du projet 2.",
-      "tags": ["React", "Next.JS", "Tailwind CSS"],
+      "tags": ["React", "Next.JS", "Tailwind"],
       "links": {
         "codeLink": "lien_vers_code_source2",
         "demoLink": "lien_vers_demo2"
