@@ -35,10 +35,18 @@ const Navbar = () => {
       </nav>
 
       <nav className="flex items-center justify-center flex-wrap">
-        <motion.a href="https://github.com/Titou360" target="_blank" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mr-3">
+        <motion.a
+          tabindex="0"
+          href="https://github.com/Titou360"
+          target="_blank"
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 mr-3"
+        >
           <GithubIcon />
         </motion.a>
         <motion.a
+          tabindex="0"
           href="https://www.linkedin.com/in/cl%C3%A9ment-felices-30784425a/"
           target="_blank"
           whileHover={{ y: -2 }}
@@ -47,13 +55,28 @@ const Navbar = () => {
         >
           <LinkedinIcon />
         </motion.a>
-        <motion.a href="https://twitter.com/Titou_360" target="_blank" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3">
+        <motion.a
+          tabindex="0"
+          href="https://twitter.com/Titou_360"
+          target="_blank"
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 mx-3"
+        >
           <TwitterIcon />
         </motion.a>
-        <motion.a href="https://codepen.io/Titou360" target="_blank" whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3">
+        <motion.a
+          tabindex="0"
+          href="https://codepen.io/Titou360"
+          target="_blank"
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 mx-3"
+        >
           <CodepenIcon />
         </motion.a>
         <motion.a
+          tabindex="0"
           href="https://occommunity.slack.com/team/U0508G7V7AM"
           target="_blank"
           whileHover={{ y: -2 }}

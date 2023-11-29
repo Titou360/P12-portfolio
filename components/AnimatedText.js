@@ -9,7 +9,7 @@ const AnimatedText = ({ text, className = '' }) => {
     animate: {
       opacity: 1,
       transition: {
-        delay: 0.5,
+        delay: 4,
         staggerChildren: 0.08
       }
     }
@@ -24,7 +24,7 @@ const AnimatedText = ({ text, className = '' }) => {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 1
+        duration: 1.5
       }
     }
   };

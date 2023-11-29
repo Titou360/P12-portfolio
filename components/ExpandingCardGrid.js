@@ -1,9 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import data from '../data/projects.json';
-
-const cardsData = data.projects;
+import { CodeCircle } from './Icons';
 
 const ExpandingCardGrid = ({ filteredCards }) => {
   const [openCard, setOpenCard] = useState(null);
@@ -32,7 +30,8 @@ const ExpandingCardGrid = ({ filteredCards }) => {
               <p className="pt-4 leading-5 text-justify">{card.description}</p>
 
               <div className="flex row justify-around align-center mt-2">
-                <span>{card.links.codeLink}</span>
+                <CodeCircle className="w-6 mx-3" href={card.links.codeLink} target="_blank" />
+
                 <span>{card.links.demoLink}</span>
               </div>
             </motion.div>

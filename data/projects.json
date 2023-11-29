@@ -5,7 +5,7 @@
       "title": "Premier pas sur le langage HTML",
       "cover": "chemin/vers/image1.jpg",
       "description": "Mise à jour d'un site avec HTML",
-      "tags": ["Projet 1"],
+      "tags": ["HTML"],
       "links": {
         "codeLink": "lien_vers_code_source1",
         "demoLink": "lien_vers_demo1"
@@ -114,10 +114,10 @@
       "id": "proj11",
       "title": "Créez et publiez votre portfolio",
       "cover": "chemin/vers/image2.jpg",
-      "description": "Description du projet 2.",
+      "description": "Voici le dernier projet de la formation, la création de mon propre Portfolio. Suite à mon travail de veille et des recherches approfondies, j'ai fais le choix de Next.JS pour ce projet. J'avais commencer à vouloir utiliser SASS pour la stylisation mais j'ai voulu me challenger en découvrant un frameworks CSS : Tailwind !",
       "tags": ["React", "Next.JS", "Tailwind"],
       "links": {
-        "codeLink": "lien_vers_code_source2",
+        "codeLink": "https://github.com/Titou360/P12-portfolio.git",
         "demoLink": "lien_vers_demo2"
       }
     }

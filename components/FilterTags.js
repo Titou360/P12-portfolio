@@ -15,18 +15,24 @@ const FilterTags = ({ onFilterChange }) => {
     setSelectedTag((prevTag) => (prevTag === tag ? null : tag));
   };
 
+    const handleShowAll = () => {
+      setSelectedTag(null); // Désélectionne tous les tags
+    };
+
   if (allTags.length === 0) {
     return null; // Ou un autre rendu approprié lorsque la liste est vide
   }
 
   return (
     <div className="flex row items-center justify-center mt-10 -mb-4">
-      <button className="bg-primary rounded-lg py-2 px-4 text-white m-2 ">Tous</button>
+      <button onClick={handleShowAll} className={`button ${selectedTag === null ? 'active bg-primary text-white px-4 py-2 m-2 rounded-lg' : 'bg-gray-800 px-4 py-2 m-2 text-white rounded-lg'}`}>
+        Tous
+      </button>
       {allTags.map((tag, index) => (
         <button
           key={index}
           onClick={() => handleTagClick(tag)}
-          className={`button ${
+          className={` ${
             selectedTag === tag ? 'active bg-primary text-white px-4 py-2 m-2 rounded-lg' : 'bg-gray-800 px-4 py-2 m-2 text-white rounded-lg'
           }`}
         >
