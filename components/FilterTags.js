@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import data from '../data/projects.json';
+import data from '../public/projects.json';
+import { motion } from 'framer-motion';
 
 const projectsData = data.projects;
 const allTags = [...new Set(projectsData.flatMap((card) => card.tags.filter((tag) => tag !== undefined && tag !== '')))];
@@ -24,20 +25,27 @@ const FilterTags = ({ onFilterChange }) => {
   }
 
   return (
-    <div className="flex row items-center justify-center mt-10 -mb-4">
-      <button onClick={handleShowAll} className={`button ${selectedTag === null ? 'active bg-primary text-white px-4 py-2 m-2 rounded-lg' : 'bg-gray-800 px-4 py-2 m-2 text-white rounded-lg'}`}>
+    <div className="flex sm:flex-row flex-wrap items-center justify-center mt-10 -mb-4 ">
+      <motion.button
+        onClick={handleShowAll}
+        className={`button ${
+          selectedTag === null ? 'active bg-primary text-white px-4 py-2 m-2 rounded-lg' : 'bg-gray-800 px-4 py-2 m-2 text-white rounded-lg'
+        }`}
+        whileHover={{ y: -2 }}
+      >
         Tous
-      </button>
+      </motion.button>
       {allTags.map((tag, index) => (
-        <button
+        <motion.button
           key={index}
           onClick={() => handleTagClick(tag)}
+          whileHover={{ y: -2 }}
           className={` ${
             selectedTag === tag ? 'active bg-primary text-white px-4 py-2 m-2 rounded-lg' : 'bg-gray-800 px-4 py-2 m-2 text-white rounded-lg'
           }`}
         >
           {tag}
-        </button>
+        </motion.button>
       ))}
     </div>
   );

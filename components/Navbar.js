@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation';
 
 const CustomLink = ({ href, title, className = '' }) => {
   const pathname = usePathname();
+  
   return (
     <Link href={href} className={`${className} relative group`}>
       {title}
@@ -30,13 +31,13 @@ const Navbar = () => {
       <nav>
         <CustomLink href="/" className="mr-4" title="Accueil" />
         <CustomLink href="/about-me" className="mx-4" title="À propos" />
-        <CustomLink href="/my-projects" className="mx-4" title="Projets" />
+        <CustomLink href="/myprojects" className="mx-4" title="Projets" />
         <CustomLink href="/contact-me" className="ml-4" title="Contact" />
       </nav>
 
       <nav className="flex items-center justify-center flex-wrap">
         <motion.a
-          tabindex="0"
+          tabIndex="0"
           href="https://github.com/Titou360"
           target="_blank"
           whileHover={{ y: -2 }}
@@ -46,7 +47,7 @@ const Navbar = () => {
           <GithubIcon />
         </motion.a>
         <motion.a
-          tabindex="0"
+          tabIndex="0"
           href="https://www.linkedin.com/in/cl%C3%A9ment-felices-30784425a/"
           target="_blank"
           whileHover={{ y: -2 }}
@@ -56,7 +57,7 @@ const Navbar = () => {
           <LinkedinIcon />
         </motion.a>
         <motion.a
-          tabindex="0"
+          tabIndex="0"
           href="https://twitter.com/Titou_360"
           target="_blank"
           whileHover={{ y: -2 }}
@@ -66,7 +67,7 @@ const Navbar = () => {
           <TwitterIcon />
         </motion.a>
         <motion.a
-          tabindex="0"
+          tabIndex="0"
           href="https://codepen.io/Titou360"
           target="_blank"
           whileHover={{ y: -2 }}
@@ -76,7 +77,7 @@ const Navbar = () => {
           <CodepenIcon />
         </motion.a>
         <motion.a
-          tabindex="0"
+          tabIndex="0"
           href="https://occommunity.slack.com/team/U0508G7V7AM"
           target="_blank"
           whileHover={{ y: -2 }}

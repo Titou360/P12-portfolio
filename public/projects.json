@@ -1,0 +1,112 @@
+{
+  "projects": [
+    {
+      "id": "proj1",
+      "title": "Riding Cities",
+      "cover": "/projet01.png",
+      "description": "Mise à jour d'un site avec HTML",
+      "explain": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae quasi sapiente autem, ipsam, tempore nostrum animi at placeat ipsum delectus ut soluta nemo. Perspiciatis totam sit expedita id odio.",
+      "tags": ["HTML"],
+      "links": {
+        "codeLink": "lien_vers_code_source1",
+        "demoLink": "lien_vers_demo1"
+      }
+    },
+    {
+      "id": "proj2",
+      "title": "Booki",
+      "cover": "/projet01.png",
+      "description": "Créer la page d'accueil de l'agence de voyage Booki",
+      "explain": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae quasi sapiente autem, ipsam, tempore nostrum animi at placeat ipsum delectus ut soluta nemo. Perspiciatis totam sit expedita id odio.",
+      "tags": ["HTML", "CSS"],
+      "links": {
+        "codeLink": "lien_vers_code_source2",
+        "demoLink": "lien_vers_demo2"
+      }
+    },
+    {
+      "id": "proj3",
+      "title": "OhmyFood",
+      "cover": "/projet01.png",
+      "description": "Améliorez l'interface d'un site mobile avec des animations CSS",
+      "explain": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae quasi sapiente autem, ipsam, tempore nostrum animi at placeat ipsum delectus ut soluta nemo. Perspiciatis totam sit expedita id odio.",
+      "tags": ["HTML", "SASS"],
+      "links": {
+        "codeLink": "lien_vers_code_source2",
+        "demoLink": "lien_vers_demo2"
+      }
+    },
+    {
+      "id": "proj4",
+      "title": "PrinIt",
+      "cover": "/projet01.png",
+      "description": "Rendre dynamique la page internet d'une imprimerie",
+      "explain": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae quasi sapiente autem, ipsam, tempore nostrum animi at placeat ipsum delectus ut soluta nemo. Perspiciatis totam sit expedita id odio.",
+      "tags": ["Javascript"],
+      "links": {
+        "codeLink": "lien_vers_code_source2",
+        "demoLink": "lien_vers_demo2"
+      }
+    },
+    {
+      "id": "proj5",
+      "title": "Sophie Bluel : Architecte",
+      "cover": "/projet01.png",
+      "description": "Création d'un site Internet pour une architecte d'intérieur avec un dashboard permettant l'ajout et la suppression de ses projets via une modale",
+      "explain": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae quasi sapiente autem, ipsam, tempore nostrum animi at placeat ipsum delectus ut soluta nemo. Perspiciatis totam sit expedita id odio.",
+      "tags": ["HTML", "CSS", "Javascript"],
+      "links": {
+        "codeLink": "lien_vers_code_source2",
+        "demoLink": "lien_vers_demo2"
+      }
+    },
+    {
+      "id": "proj6",
+      "title": "Kasa",
+      "cover": "/projet01.png",
+      "description": "Créez une application web de location immobilière avec React",
+      "explain": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae quasi sapiente autem, ipsam, tempore nostrum animi at placeat ipsum delectus ut soluta nemo. Perspiciatis totam sit expedita id odio.",
+      "tags": ["React", "SASS", ""],
+      "links": {
+        "codeLink": "lien_vers_code_source2",
+        "demoLink": "lien_vers_demo2"
+      }
+    },
+    {
+      "id": "proj7",
+      "title": "Nina Carducci : Photographe",
+      "cover": "/projet01.png",
+      "description": "Optimisation SEO et ... du site de Nina Carducci",
+      "explain": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae quasi sapiente autem, ipsam, tempore nostrum animi at placeat ipsum delectus ut soluta nemo. Perspiciatis totam sit expedita id odio.",
+      "tags": ["HTML", "CSS", "Javascript", "SEO"],
+      "links": {
+        "codeLink": "lien_vers_code_source2",
+        "demoLink": "lien_vers_demo2"
+      }
+    },
+    {
+      "id": "proj10",
+      "title": "Argent Bank",
+      "cover": "/projet01.png",
+      "description": "Implémentez le front-end d'une application bancaire avec React",
+      "explain": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae quasi sapiente autem, ipsam, tempore nostrum animi at placeat ipsum delectus ut soluta nemo. Perspiciatis totam sit expedita id odio.",
+      "tags": ["HTML", "CSS", "React", "Redux"],
+      "links": {
+        "codeLink": "lien_vers_code_source2",
+        "demoLink": "lien_vers_demo2"
+      }
+    },
+    {
+      "id": "proj11",
+      "title": "Mon portfolio",
+      "cover": "/projet01.png",
+      "description": "Voici le dernier projet de la formation, la création de mon propre Portfolio. Suite à mon travail de veille et des recherches approfondies, j'ai fais le choix de Next.JS pour ce projet. J'avais commencer à vouloir utiliser SASS pour la stylisation mais j'ai voulu me challenger en découvrant un frameworks CSS : Tailwind !",
+      "explain": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae quasi sapiente autem, ipsam, tempore nostrum animi at placeat ipsum delectus ut soluta nemo. Perspiciatis totam sit expedita id odio.",
+      "tags": ["React", "Next.JS", "Tailwind"],
+      "links": {
+        "codeLink": "https://github.com/Titou360/P12-portfolio.git",
+        "demoLink": "lien_vers_demo2"
+      }
+    }
+  ]
+}

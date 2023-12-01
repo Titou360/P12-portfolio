@@ -1,21 +1,21 @@
 "use client"
 import AnimatedText from '@/components/AnimatedText';
-import TransitionEffect from '@/components/TransitionEffect';
+
 
 const Page = () => {
   return (
     <>
-      <TransitionEffect />
+
       <section id="contact" className="w-full pt-2 mb-6 flex flex-col items-center text-dark">
         <div className="pt-0 flex flex-col items-center text-dark w-full min-h-screen">
           <AnimatedText className="normal-case" text="Me contacter" />
 
-          <div className="flex justify-center items-center w-screen h-screen">
+          <div className="flex justify-center items-center w-screen h-screen mt-10 sm:-mt-16">
             <div className="container mx-auto my-4 px-4 lg:px-20">
               <div className="w-full p-8 my-4 md:px-12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl bg-white items-center justify-center">
                 <div className="flex">
                   <h2 className="font-bold uppercase text-5xl">
-                    Envoyez-moi <br /> un <span className='text-primary'>mess@ge</span>
+                    Envoyez-moi <br /> un <span className="text-primary">mess@ge</span>
                   </h2>
                 </div>
                 <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">

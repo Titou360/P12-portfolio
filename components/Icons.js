@@ -28,24 +28,11 @@ export const SlackIcon = ({ className, ...rest }) => (
   </svg>
 );
 
-export const TrombiIcon = ({ className, ...rest }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} className={`w-full h-auto ${className}`} {...rest}>
-    <path
-      fill="none"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={4}
-      d="M24.707 9.565 9.858 24.415a9 9 0 0 0 0 12.727v0a9 9 0 0 0 12.728 0l17.678-17.677a6 6 0 0 0 0-8.486v0a6 6 0 0 0-8.486 0L14.101 28.657a3 3 0 0 0 0 4.243v0a3 3 0 0 0 4.242 0l14.85-14.85"
-    />
-  </svg>
-);
-
 export const CircularText = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={400}
-    height={400}
+    width={100}
+    height={100}
     viewBox="0 0 300 300"
     className={`fill-primary animate-spin-slow w-full h-auto ${className}`}
     {...rest}
@@ -58,8 +45,8 @@ export const Handshake = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    width={800}
-    height={800}
+    width={100}
+    height={100}
     viewBox="0 0 512 512"
     className={`w-full h-auto ${className}`}
     {...rest}
@@ -73,8 +60,8 @@ export const Handshake = ({ className, ...rest }) => (
 export const HtmlIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
+    width={100}
+    height={100}
     preserveAspectRatio="xMinYMin meet"
     viewBox="-52.5 0 361 361"
     className={`w-full h-auto ${className}`}
@@ -97,8 +84,8 @@ export const HtmlIcon = ({ className, ...rest }) => (
 export const CodeCircle = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48}
-    height={48}
+    width={100}
+    height={100}
     fill="none"
     stroke="#E55812"
     viewBox="0 0 24 24"
@@ -113,3 +100,30 @@ export const CodeCircle = ({ className, ...rest }) => (
     />
   </svg>
 );
+
+export const DownloadIcon = ({ className, ...rest }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlSpace="preserve"
+    id="_x32_"
+    width={64}
+    height={64}
+    fill="#fff"
+    stroke="#fff"
+    viewBox="-51.2 -51.2 614.4 614.4"
+    className={`w-full h-auto ${className}`}
+    {...rest}
+  >
+    <g id="SVGRepo_iconCarrier">
+      <style>{".st0{fill:#e55812}"}</style>
+      <path
+        d="M242.956 313.537c3.442 4.534 8.073 7.034 13.044 7.034s9.602-2.5 13.024-7.011l94.723-119.88c3.517-4.639 4.493-9.126 2.75-12.636-1.743-3.51-5.906-5.443-11.726-5.443h-36.26c-9.866 0-17.894-8.024-17.894-17.892V43.661c0-11.623-9.452-21.079-21.073-21.079h-47.087c-11.621 0-21.073 9.456-21.073 21.079V157.71c0 9.868-8.028 17.892-17.896 17.892h-36.26c-5.817 0-9.98 1.933-11.724 5.443-1.743 3.509-.767 7.997 2.77 12.659l94.682 119.833z"
+        className="st0"
+      />
+      <path
+        d="m511.934 360.164-48.042-160.14h-58.09l-28.242 50.885h36.246L444.7 359.03H67.3l30.893-108.121h36.246l-28.242-50.885h-58.09L0 360.622v103.354c0 14.03 11.413 25.442 25.441 25.442h461.118c14.028 0 25.441-11.413 25.441-25.442v-55.652l-.066-48.16z"
+        className="st0"
+      />
+    </g>
+  </svg>
+)

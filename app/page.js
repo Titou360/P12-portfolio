@@ -3,14 +3,13 @@ import Image from "next/image";
 import profilPic from "../public/NOBG-clement.webp"
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
-import { TrombiIcon } from "@/components/Icons";
+import { DownloadIcon } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
-import TransitionEffect from "@/components/TransitionEffect";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
     <>
-      <TransitionEffect />
       <div className="flex items-center text-dark min-h-screen">
         <div className="p-10 flex items-center justify-center gap-4">
           <div className="w-1/3">
@@ -31,15 +30,17 @@ export default function Home() {
               raconte une histoire de créativité et d&apos;efficacité.
             </p>
 
-            <div className="flex items-center self-start mt-2 ">
-              {/* Next line => !pdf must be placed in public directory */}
-              <Link
-                href="/resume.pdf"
-                className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transparent hover:border-dark"
-                download={true}
-              >
-                Curriculum <TrombiIcon className="ml-1 w-4" />
-              </Link>
+            <div className="flex items-center self-start mt-2 justify-center ">
+              <div className="flex flex-wrap justify-center items-center">
+                {/* Next line => !resume.pdf must be placed in public directory */}
+                <motion.a
+                  href="/resume.pdf"
+                  className="flex flex-nowrap items-center align-baseline bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-white hover:text-dark border border-solid border-transparent hover:border-dark"
+                  download={true}
+                >
+                  Curriculum <DownloadIcon className="m-3 w-6" />
+                </motion.a>
+              </div>
 
               <Link href="mailto:clement.felices@gmail.com" target={'_blank'} className="ml-4 text-lg font-medium capitalize text-dark underline">
                 Contactez-moi
