@@ -29,7 +29,9 @@ const FilterTags = ({ onFilterChange }) => {
       <motion.button
         onClick={handleShowAll}
         className={`button ${
-          selectedTag === null ? 'active bg-primary text-white px-4 py-2 m-2 rounded-lg' : 'bg-gray-800 px-4 py-2 m-2 text-white rounded-lg'
+          selectedTag === null
+            ? 'active bg-primary text-light px-4 py-2 m-2 rounded-lg'
+            : 'bg-dark dark:bg-light px-4 py-2 m-2 text-light dark:text-dark rounded-lg'
         }`}
         whileHover={{ y: -2 }}
       >
@@ -41,7 +43,9 @@ const FilterTags = ({ onFilterChange }) => {
           onClick={() => handleTagClick(tag)}
           whileHover={{ y: -2 }}
           className={` ${
-            selectedTag === tag ? 'active bg-primary text-white px-4 py-2 m-2 rounded-lg' : 'bg-gray-800 px-4 py-2 m-2 text-white rounded-lg'
+            selectedTag === tag
+              ? 'active bg-primary text-white px-4 py-2 m-2 rounded-lg'
+              : 'bg-dark dark:bg-light px-4 py-2 m-2 text-white dark:text-dark rounded-lg'
           }`}
         >
           {tag}

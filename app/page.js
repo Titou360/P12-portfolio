@@ -1,19 +1,19 @@
-"use client"
-import Image from "next/image";
-import profilPic from "../public/NOBG-clement.webp"
-import AnimatedText from "@/components/AnimatedText";
-import Link from "next/link";
-import { DownloadIcon } from "@/components/Icons";
-import HireMe from "@/components/HireMe";
-import { motion } from "framer-motion";
+'use client';
+import AnimatedText from '@/components/AnimatedText';
+import HireMe from '@/components/HireMe';
+import { DownloadIcon } from '@/components/Icons';
+import { motion } from 'framer-motion';
+import Image from 'next/image';
+import Link from 'next/link';
+import profilPic from '../public/NOBG-clement.webp';
 
 export default function Home() {
   return (
     <>
-      <div className="flex items-center text-dark min-h-screen">
+      <div className="flex items-center text-dark dark:text-light min-h-screen">
         <div className="p-10 flex items-center justify-center gap-4">
-          <div className="w-1/3">
-            <Image src={profilPic} alt="Photo de Clément FELICES" className="w-full h-auto shadow-[0px_20px_20px_10px_#00000024]" />
+          <div className="w-1/3 flex items-center justify-center">
+            <Image src={profilPic} alt="Photo de Clément FELICES" className="w-80 h-auto shadow-[0px_20px_20px_10px_#00000024] dark:bg-light"  />
           </div>
 
           <div className="w-1/2 flex flex-col item-center">
@@ -35,14 +35,19 @@ export default function Home() {
                 {/* Next line => !resume.pdf must be placed in public directory */}
                 <motion.a
                   href="/resume.pdf"
-                  className="flex flex-nowrap items-center align-baseline bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-white hover:text-dark border border-solid border-transparent hover:border-dark"
+                  className="flex flex-nowrap items-center align-baseline bg-dark text-light dark:bg-light dark:text-dark py-1 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-solid border-4 border-transparent hover:border-solid hover:border-4 hover:border-dark dark:hover:border-primary"
                   download={true}
                 >
-                  Curriculum <DownloadIcon className="m-3 w-6" />
+                  Curriculum
+                  <DownloadIcon className="m-3 w-6" />
                 </motion.a>
               </div>
 
-              <Link href="mailto:clement.felices@gmail.com" target={'_blank'} className="ml-4 text-lg font-medium capitalize text-dark underline">
+              <Link
+                href="mailto:clement.felices@gmail.com"
+                target={'_blank'}
+                className="ml-4 text-lg font-medium capitalize text-dark dark:text-light underline"
+              >
                 Contactez-moi
               </Link>
             </div>

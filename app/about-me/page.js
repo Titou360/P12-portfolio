@@ -10,19 +10,19 @@ import { HtmlIcon } from '@/components/Icons';
 const Page = () => {
   return (
     <>
-      <section id="about-me" className="w-full pt-2 mb-6 flex flex-col items-center text-dark">
+      <section id="about-me" className="w-full pt-2 mb-6 flex flex-col items-center text-dark dark:text-light">
         <AnimatedText className="normal-case" text="À propos de moi" />
 
         <div className="grid sm:grid-cols-3 grid-cols-1 gap-4 mt-6 items-start">
           <div className="m-4 sm:order-1 order-2">
-            <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">Skills</h2>
+            <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">Skills</h2>
             <div className="grid grid-cols-4">
               <HtmlIcon className="w-14 h-14" />
             </div>
           </div>
 
           <div className="m-4 sm-order-2 order-1">
-            <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">Biographie</h2>
+            <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">Biographie</h2>
             <p className="font-medium text-justify">
               Salut✋Je suis Clément Felices, un développeur Web Front-end avec une appétence à la création d&apos;expériences digitales
               fonctionnelles et innovantes.
@@ -48,41 +48,41 @@ const Page = () => {
             </p>
           </div>
 
-          <div className="flex flex-col justify-between text-lg font-bold uppercase text-dark ml-4 sm:order-3 order-2">
-            <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 m-4">Quelques chiffres</h2>
+          <div className="flex flex-col justify-between text-lg font-bold uppercase text-dark dark:text-light ml-4 sm:order-3 order-2">
+            <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 m-4">Quelques chiffres</h2>
             <div className="flex flex-col items-center">
               <span className="inline-block normal-case text-7xl font-bold">
                 <AnimatedNumber toNumber={9} />
               </span>
-              <h2 className="text-xl bold bg-primary normal-case text-dark/75">mois de formation</h2>
+              <h2 className="text-xl bold bg-primary normal-case text-dark/75 dark:text-light">mois de formation</h2>
             </div>
 
             <div className="flex flex-col items-center">
               <span className="inline-block normal-case text-7xl font-bold">
                 <AnimatedNumber toNumber={12} />
               </span>
-              <h2 className="text-xl bold bg-primary  normal-case text-dark/75">projets complétés</h2>
+              <h2 className="text-xl bold bg-primary  normal-case text-dark/75 dark:text-light">projets complétés</h2>
             </div>
 
             <div className="flex flex-col items-center">
               <span className="inline-block normal-case text-7xl font-bold">
                 <AnimatedNumber toNumber={15} />
               </span>
-              <h2 className="text-xl bold bg-primary normal-case  text-dark/75">certifications reçues</h2>
+              <h2 className="text-xl bold bg-primary normal-case  text-dark/75 dark:text-light">certifications reçues</h2>
             </div>
 
             <div className="flex flex-col items-center">
               <span className="inline-block normal-case text-7xl font-bold">
                 <AnimatedNumber toNumber={1} />
               </span>
-              <h2 className="text-xl bold bg-primary normal-case  text-dark/75">diplôme obtenu</h2>
+              <h2 className="text-xl bold bg-primary normal-case  text-dark/75 dark:text-light">diplôme obtenu</h2>
             </div>
 
             <div className="flex flex-col items-center">
               <span className="inline-block normal-case text-7xl font-bold">
                 <AnimatedNumber toNumber={1000} />
               </span>
-              <h2 className="text-xl bold bg-primary normal-case  text-dark/75">% de motivation</h2>
+              <h2 className="text-xl bold bg-primary normal-case  text-dark/75 dark:text-light">% de motivation</h2>
             </div>
           </div>
         </div>

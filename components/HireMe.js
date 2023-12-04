@@ -10,7 +10,7 @@ const HireMe = () => {
           href="mailto:clement.felices@gmail.com"
           className="flex items-center justify-center absolute left-1/2   -translate-x-1/2 w-20 h-20 rounded-full"
         >
-          <Handshake />
+          <Handshake className="dark:fill-primary" />
         </Link>
       </div>
     </div>

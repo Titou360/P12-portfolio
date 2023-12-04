@@ -3,7 +3,7 @@ import WhatsApp from './Whatsapp';
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-dark border-t-2 border-solid border-dark font-medium text-lg text-light">
+    <footer className="w-full bg-dark border-t-2 border-solid border-dark font-medium text-lg text-light dark:border-solid dark:border-primary">
       <div className="p-10 flex flex-col sm:flex-row items-center justify-between ">
         <span>{new Date().getFullYear()} &copy; All Rights Reserved</span>
         <div className="flex items-center">
