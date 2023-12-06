@@ -26,7 +26,7 @@ const ProjectsDetails = () => {
           <FilterTags onFilterChange={handleFilterChange} />
 
           <motion.div
-            className="grid grid-cols-1 sm:grid-cols-2"
+            className="grid items-stretch auto-rows-fr justify-center grid-cols-3 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 xl:w-4/5 2xl:w-3/5 2xl:grid-cols-2"
             initial={{ scale: 0 }}
             animate={{ rotate: 0, scale: 1 }}
             transition={{

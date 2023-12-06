@@ -41,7 +41,7 @@
       "title": "PrinIt",
       "cover": "/projet01.png",
       "source": "OpenClassRooms",
-      "explain": "Print-it est une imprimerie fictive qui souhaite dynamiser son site internet. Mise en place d'un slider en Javascript sur leur site HTML & CSS.",
+      "explain": "Print-it est une imprimerie fictive qui souhaite dynamiser son site internet. J'ai du implémenter un slider (caroussel d'image) en Javascript sur leur site HTML & CSS",
       "tags": ["Javascript"],
       "links": {
         "codeLink": "lien_vers_code_source2",
@@ -65,7 +65,7 @@
       "title": "Kasa",
       "cover": "/projet01.png",
       "source": "OpenClassRooms",
-      "explain": "Kasa est une agence de location d'appartements fictive. Création de la page d'accueil, d'une page à propos et d'une page pour les appartements avec React.",
+      "explain": "Kasa est une agence de location d'appartements fictive. Création de la page d'accueil avec des cards représentant les logements, d'une page \"À propos\" et d'une page unique pour les appartements avec React.",
       "tags": ["React", "SASS", ""],
       "links": {
         "codeLink": "lien_vers_code_source2",

@@ -30,7 +30,7 @@ const FilterTags = ({ onFilterChange }) => {
         onClick={handleShowAll}
         className={`button ${
           selectedTag === null
-            ? 'active bg-primary text-light px-4 py-2 m-2 rounded-lg'
+            ? 'active bg-primary/75 text-light px-4 py-2 m-2 rounded-lg'
             : 'bg-dark dark:bg-light px-4 py-2 m-2 text-light dark:text-dark rounded-lg'
         }`}
         whileHover={{ y: -2 }}

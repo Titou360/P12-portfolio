@@ -8,7 +8,7 @@ export default function Logo() {
     <div className="flex items-center justify-center mt-2">
       <MotionLink
         href="/"
-        className="w-16 h-16 bg-dark text-light dark:bg-light dark:text-dark flex items-center justify-center rounded-full text-2xl font-bold"
+        className="w-16 h-16 xs:w-10 xs:h-10 bg-dark text-light dark:bg-light dark:text-dark flex items-center justify-center rounded-full text-2xl xs:text-l font-bold"
         whileHover={{
           scale: 1.3,
           transition: { duration: 0.5 }
