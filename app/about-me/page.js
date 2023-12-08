@@ -17,9 +17,8 @@ const Page = () => {
         <div className="grid grid-cols-3 lg:grid-cols-1 xl:grid-cols-3 2xl:grid-cols-3 gap-4 mt-6 items-start">
           <div className="m-4 order-1 lg:order-3 ">
             <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-primary xs:mb-0">Skills</h2>
-       
-              <Skills />
 
+            <Skills />
           </div>
 
           <div className="m-4 order-2 lg:order-1">
@@ -62,39 +61,49 @@ const Page = () => {
 
           <div className="flex flex-col justify-between text-lg font-bold uppercase text-dark dark:text-light ml-4 order-3 lg:order-2 xs:mb-4">
             <h2 className="m-4 text-lg font-bold uppercase text-dark/75 dark:text-primary xs:m-0">Quelques chiffres</h2>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center justify-center">
               <span className="inline-block normal-case text-7xl font-bold">
                 <AnimatedNumber toNumber={9} />
               </span>
-              <h2 className="text-xl bold bg-primary normal-case text-dark/75 dark:text-light">mois de formation</h2>
+              <h2 className="text-xl bold bg-primary normal-case text-dark dark:text-light mx-auto px-2 rounded-full">
+                mois de formation
+              </h2>
             </div>
 
             <div className="flex flex-col items-center">
               <span className="inline-block normal-case text-7xl font-bold">
                 <AnimatedNumber toNumber={12} />
               </span>
-              <h2 className="text-xl bold bg-primary  normal-case text-dark/75 dark:text-light">projets complétés</h2>
+              <h2 className="text-xl bold bg-primary  normal-case text-dark dark:text-light px-4 rounded-full">
+                projets complétés
+              </h2>
             </div>
 
             <div className="flex flex-col items-center">
               <span className="inline-block normal-case text-7xl font-bold">
                 <AnimatedNumber toNumber={15} />
               </span>
-              <h2 className="text-xl bold bg-primary normal-case  text-dark/75 dark:text-light">certifications reçues</h2>
+              <h2 className="text-xl bold bg-primary normal-case text-dark dark:text-light px-4 rounded-full">
+                certifications reçues
+              </h2>
             </div>
 
             <div className="flex flex-col items-center">
               <span className="inline-block normal-case text-7xl font-bold">
                 <AnimatedNumber toNumber={1} />
               </span>
-              <h2 className="text-xl bold bg-primary normal-case  text-dark/75 dark:text-light">diplôme obtenu</h2>
+              <h2 className="text-xl bold bg-primary normal-case text-dark dark:text-light px-4 rounded-full">
+                diplôme obtenu
+              </h2>
             </div>
 
             <div className="flex flex-col items-center">
               <span className="inline-block normal-case text-7xl font-bold">
                 <AnimatedNumber toNumber={1000} />
               </span>
-              <h2 className="text-xl bold bg-primary normal-case  text-dark/75 dark:text-light">% de motivation</h2>
+              <h2 className="text-xl bold bg-primary normal-case text-dark dark:text-light px-4 rounded-full">
+                % de motivation
+              </h2>
             </div>
           </div>
         </div>

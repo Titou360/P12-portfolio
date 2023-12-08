@@ -32,6 +32,11 @@ export default function Home() {
               innovantes. Explorez mes récents projets, mettant en avant mon expertise en React.js et en développement web, où chaque ligne de code
               raconte une histoire de créativité et d&apos;efficacité.
             </p>
+            <p className="my-4 text-base font-medium !text:0.5xl xs:!text-s">
+              En parallèle, j&apos;utilise WordPress depuis 2008, ayant eu la chance de concevoir plusieurs sites pour des associations et des amis.
+              J&apos;ai également exploré des produits tels que phpBB et Xoops, élargissant ainsi ma palette d&apos;outils et d&apos;expériences dans
+              le monde du web.
+            </p>
 
             <div className="w-full flex items-center self-start mt-2 justify-center">
               <div className="flex flex-wrap justify-center items-center">
