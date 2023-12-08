@@ -20,27 +20,39 @@ const ProjectCard = ({ filteredCards }) => {
             </div>
           </div>
           <div className="flex justify-end -mt-8 rounded-b-lg lg:-mt-8 lg:pr-8 py-1 ">
-            <motion.a
-              href={card.links.demoLink}
-              type="button"
-              className="text-dark py-3 px-4 rounded-lg bg-primary"
-              target="_blank"
-              whileHover={{ y: 2 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <p className="font-semibold text-sm tracking-wide">Démo</p>
-            </motion.a>
+            {card.links.demoLink ? (
+              <motion.a
+                href={card.links.demoLink}
+                type="button"
+                className="text-dark py-3 px-4 rounded-lg bg-primary"
+                target="_blank"
+                whileHover={{ y: 2 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                <p className="font-semibold text-sm tracking-wide">Démo</p>
+              </motion.a>
+            ) : (
+              <div className="text-dark py-3 px-4 rounded-lg bg-gray-300 cursor-not-allowed">
+                <p className="font-semibold text-sm tracking-wide">Démo ⛔</p>
+              </div>
+            )}
 
-            <motion.a
-              href={card.links.codeLink}
-              type="button"
-              className="py-3 px-4 bg-primary rounded-lg ml-3 text-dark"
-              whileHover={{ y: 2 }}
-              whileTap={{ scale: 0.9 }}
-              target="_blank"
-            >
-              <p className="font-semibold text-sm tracking-wide">Github</p>
-            </motion.a>
+            {card.links.codeLink ? (
+              <motion.a
+                href={card.links.codeLink}
+                type="button"
+                className="py-3 px-4 bg-primary rounded-lg ml-3 text-dark"
+                whileHover={{ y: 2 }}
+                whileTap={{ scale: 0.9 }}
+                target="_blank"
+              >
+                <p className="font-semibold text-sm tracking-wide">Github</p>
+              </motion.a>
+            ) : (
+              <div className="py-3 px-4 bg-gray-300 rounded-lg ml-3 cursor-not-allowed">
+                <p className="font-semibold text-sm tracking-wide">Github ⛔</p>
+              </div>
+            )}
 
             <motion.button
               type="button"

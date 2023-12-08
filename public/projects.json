@@ -8,8 +8,8 @@
       "explain": "Mise à jour du site Internet d'une association sportive de skate-board fictive. Rajout d'un membre et création/modification des plannings des entraînements en HTML.",
       "tags": ["HTML"],
       "links": {
-        "codeLink": "lien_vers_code_source1",
-        "demoLink": "lien_vers_demo1"
+        "codeLink": "",
+        "demoLink": ""
       }
     },
     {
@@ -20,8 +20,8 @@
       "explain": "Booki, agence de voyage fictive, me demande de créer la page d'accueil de leur site Internet, mettant en avant la ville de Marseille, ses hôtels et ses acitivés en HTML et CSS.",
       "tags": ["HTML", "CSS"],
       "links": {
-        "codeLink": "lien_vers_code_source2",
-        "demoLink": "lien_vers_demo2"
+        "codeLink": "https://github.com/Titou360/P3_Booki_OpenClassRoom_Clement",
+        "demoLink": "https://titou360.github.io/P3_Booki_OpenClassRoom_Clement/"
       }
     },
     {
@@ -32,8 +32,8 @@
       "explain": "OhmyFood est une entreprise fictive qui se lance dans la réservation de menus en ligne. Création de 4 fiches restaurants avec leur menus respectifs et quelques animations CSS.",
       "tags": ["HTML", "SASS"],
       "links": {
-        "codeLink": "lien_vers_code_source2",
-        "demoLink": "lien_vers_demo2"
+        "codeLink": "https://github.com/Titou360/P4-Ohmyfood",
+        "demoLink": "https://titou360.github.io/P4-Ohmyfood/"
       }
     },
     {
@@ -44,8 +44,8 @@
       "explain": "Print-it est une imprimerie fictive qui souhaite dynamiser son site internet. J'ai du implémenter un slider (caroussel d'image) en Javascript sur leur site HTML & CSS",
       "tags": ["Javascript"],
       "links": {
-        "codeLink": "lien_vers_code_source2",
-        "demoLink": "lien_vers_demo2"
+        "codeLink": "https://github.com/Titou360/P5_Printit",
+        "demoLink": "https://titou360.github.io/P5_Printit/"
       }
     },
     {
@@ -56,8 +56,8 @@
       "explain": "Sophie est une architect d'intérieur fictive qui souhaite disposer d'un site lui permettant de rajouter et/ou supprimer ses travaux Site réalisé en HTML CSS et Javascript.",
       "tags": ["HTML", "CSS", "Javascript"],
       "links": {
-        "codeLink": "lien_vers_code_source2",
-        "demoLink": "lien_vers_demo2"
+        "codeLink": "https://github.com/Titou360/Portfolio-architecte-sophie-bluel",
+        "demoLink": "https://titou360.github.io/Portfolio-architecte-sophie-bluel/FrontEnd/index.html"
       }
     },
     {
@@ -68,8 +68,8 @@
       "explain": "Kasa est une agence de location d'appartements fictive. Création de la page d'accueil avec des cards représentant les logements, d'une page \"À propos\" et d'une page unique pour les appartements avec React.",
       "tags": ["React", "SASS", ""],
       "links": {
-        "codeLink": "lien_vers_code_source2",
-        "demoLink": "lien_vers_demo2"
+        "codeLink": "https://github.com/Titou360/P8-Kasa",
+        "demoLink": "https://titou360.github.io/P8-Kasa/"
       }
     },
     {
@@ -80,8 +80,8 @@
       "explain": "Nina est une photographe fictive qui souhaite une amélioration de son site Internet : Optimisations & mise en place de SEO m'ont permis d'atteindre ses objectifs.",
       "tags": ["HTML", "CSS", "Javascript", "SEO"],
       "links": {
-        "codeLink": "lien_vers_code_source2",
-        "demoLink": "lien_vers_demo2"
+        "codeLink": "https://github.com/Titou360/P9-Nina",
+        "demoLink": "https://titou360.github.io/P9-Nina/"
       }
     },
     {
@@ -92,8 +92,8 @@
       "explain": "Banque fictive qui souhaite une application web sécurisée permettant à ses utilisateurs de se connecter à leur compte et de visualiser leurs transactions bancaires. ",
       "tags": ["HTML", "CSS", "React", "Redux"],
       "links": {
-        "codeLink": "lien_vers_code_source2",
-        "demoLink": "lien_vers_demo2"
+        "codeLink": "https://github.com/Titou360/ArgentBank-website",
+        "demoLink": ""
       }
     },
     {

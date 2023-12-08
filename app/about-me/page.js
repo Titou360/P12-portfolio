@@ -2,7 +2,8 @@
 import AnimatedText from '@/components/AnimatedText';
 import AnimatedNumber from '@/components/AnimatedNumber';
 import Link from 'next/link';
-import { HtmlIcon } from '@/components/Icons';
+import { motion } from 'framer-motion';
+import Skills from '@/components/Skills';
 
 
 
@@ -16,16 +17,27 @@ const Page = () => {
         <div className="grid grid-cols-3 lg:grid-cols-1 xl:grid-cols-3 2xl:grid-cols-3 gap-4 mt-6 items-start">
           <div className="m-4 order-1 lg:order-3 ">
             <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-primary xs:mb-0">Skills</h2>
-            <div className="grid grid-cols-4">
-              <HtmlIcon className="w-14 h-14" />
-            </div>
+       
+              <Skills />
+
           </div>
 
           <div className="m-4 order-2 lg:order-1">
             <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-primary">Biographie</h2>
             <p className="font-medium">
-              Salut✋Je suis Clément Felices, un développeur Web Front-end avec une appétence à la création d&apos;expériences digitales
-              fonctionnelles et innovantes.
+              Salut{' '}
+              <motion.span
+                style={{ display: 'inline-block' }}
+                animate={{
+                  rotate: [0, -20, 20, -20, 20, -20, 20, -20, 0], // Animation de balancement
+                  transition: { duration: 4, repeat: Infinity } // Répétition infinie
+                }}
+                className="text-2xl"
+              >
+                ✋
+              </motion.span>
+              Je suis Clément Felices, un développeur Web Front-end avec une appétence à la création d&apos;expériences digitales fonctionnelles et
+              innovantes.
               <br />
               <br />
               Fort d&apos;une carrière florissante de 21 ans dans l&apos;hôtellerie-restauration, j&apos;ai cultivé des compétences exceptionnelles en
