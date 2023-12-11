@@ -5,7 +5,7 @@ import { DownloadIcon } from '@/components/Icons';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import profilPic from '../public/NOBG-clement.webp';
+import profilPic from '../public/assets/img/NOBG-clement.webp';
 
 export default function Home() {
   return (

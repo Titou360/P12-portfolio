@@ -8,7 +8,7 @@ const ProjectCard = ({ filteredCards }) => {
         <div key={card.id} className="py-8 px-4">
           <div className="inline-grid h-full lg:flex bg-dark dark:bg-light dark:border-primary rounded-lg border shadow-lg pb-6 lg:pb-0 ">
             <div className="w-full lg:w-1/3 lg:p-4">
-              <Image src={card.cover} alt="Image du projet" width={138} height={167} />
+              <Image className="object-fill" src={card.cover} alt="Image du projet" width={150} height={150} />
             </div>
 
             <div className="w-full lg:w-2/3 p-4">

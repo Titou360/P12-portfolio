@@ -3,7 +3,7 @@
     {
       "id": "proj1",
       "title": "Riding Cities",
-      "cover": "/projet01.png",
+      "cover": "/assets/img/thumb_projects/projet1.webp",
       "source": "OpenClassRooms",
       "explain": "Mise à jour du site Internet d'une association sportive de skate-board fictive. Rajout d'un membre et création/modification des plannings des entraînements en HTML.",
       "tags": ["HTML"],
@@ -15,7 +15,7 @@
     {
       "id": "proj2",
       "title": "Booki",
-      "cover": "/projet01.png",
+      "cover": "/assets/img/thumb_projects/projet2.webp",
       "source": "OpenClassRooms",
       "explain": "Booki, agence de voyage fictive, me demande de créer la page d'accueil de leur site Internet, mettant en avant la ville de Marseille, ses hôtels et ses acitivés en HTML et CSS.",
       "tags": ["HTML", "CSS"],
@@ -27,7 +27,7 @@
     {
       "id": "proj3",
       "title": "OhmyFood",
-      "cover": "/projet01.png",
+      "cover": "/assets/img/thumb_projects/projet3.webp",
       "source": "OpenClassRooms",
       "explain": "OhmyFood est une entreprise fictive qui se lance dans la réservation de menus en ligne. Création de 4 fiches restaurants avec leur menus respectifs et quelques animations CSS.",
       "tags": ["HTML", "SASS"],
@@ -39,7 +39,7 @@
     {
       "id": "proj4",
       "title": "PrinIt",
-      "cover": "/projet01.png",
+      "cover": "/assets/img/thumb_projects/projet4.webp",
       "source": "OpenClassRooms",
       "explain": "Print-it est une imprimerie fictive qui souhaite dynamiser son site internet. J'ai du implémenter un slider (caroussel d'image) en Javascript sur leur site HTML & CSS",
       "tags": ["Javascript"],
@@ -51,7 +51,7 @@
     {
       "id": "proj5",
       "title": "Sophie Bluel : Architecte",
-      "cover": "/projet01.png",
+      "cover": "/assets/img/thumb_projects/projet5.webp",
       "source": "OpenClassRooms",
       "explain": "Sophie est une architect d'intérieur fictive qui souhaite disposer d'un site lui permettant de rajouter et/ou supprimer ses travaux Site réalisé en HTML CSS et Javascript.",
       "tags": ["HTML", "CSS", "Javascript"],
@@ -63,7 +63,7 @@
     {
       "id": "proj6",
       "title": "Kasa",
-      "cover": "/projet01.png",
+      "cover": "/assets/img/thumb_projects/projet6.webp",
       "source": "OpenClassRooms",
       "explain": "Kasa est une agence de location d'appartements fictive. Création de la page d'accueil avec des cards représentant les logements, d'une page \"À propos\" et d'une page unique pour les appartements avec React.",
       "tags": ["React", "SASS", ""],
@@ -75,7 +75,7 @@
     {
       "id": "proj7",
       "title": "Nina Carducci : Photographe",
-      "cover": "/projet01.png",
+      "cover": "/assets/img/thumb_projects/projet7.webp",
       "source": "OpenClassRooms",
       "explain": "Nina est une photographe fictive qui souhaite une amélioration de son site Internet : Optimisations & mise en place de SEO m'ont permis d'atteindre ses objectifs.",
       "tags": ["HTML", "CSS", "Javascript", "SEO"],
@@ -87,7 +87,7 @@
     {
       "id": "proj10",
       "title": "Argent Bank",
-      "cover": "/projet01.png",
+      "cover": "/assets/img/thumb_projects/projet8.webp",
       "source": "OpenClassRooms",
       "explain": "Banque fictive qui souhaite une application web sécurisée permettant à ses utilisateurs de se connecter à leur compte et de visualiser leurs transactions bancaires. ",
       "tags": ["HTML", "CSS", "React", "Redux"],
@@ -99,7 +99,7 @@
     {
       "id": "proj11",
       "title": "Mon portfolio",
-      "cover": "/projet01.png",
+      "cover": "/assets/img/thumb_projects/projet9.webp",
       "source": "OpenClassRooms",
       "explain": "Projet final de la formation OpenClassRooms, je me suis challenger à utiliser un Frameworks CSS : Tailwind. Découverte du Frameworks Next.JS pour la partie Front-End",
       "tags": ["React", "Next.JS", "Tailwind"],
