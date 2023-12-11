@@ -43,11 +43,11 @@ export default function Home() {
                 {/* Next line => !resume.pdf must be placed in public directory */}
                 <motion.a
                   href="/resume.pdf"
-                  className="flex flex-nowrap items-center align-baseline bg-dark text-light dark:bg-light dark:text-dark py-1 px-6 md:px-3 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-solid border-4 border-transparent hover:border-solid hover:border-4 hover:border-dark dark:hover:border-primary sm:!text-xl"
+                  className="flex flex-nowrap items-center align-baseline bg-dark text-light dark:bg-light dark:text-dark py-1 px-6 md:px-2 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-solid border-4 border-transparent hover:border-solid hover:border-4 hover:border-dark dark:hover:border-primary sm:!text-l"
                   download={true}
                 >
                   Curriculum
-                  <DownloadIcon className="m-3 w-6" />
+                  <DownloadIcon className="w-6 m-3 sm:m-1" />
                 </motion.a>
               </div>
 
