@@ -111,7 +111,7 @@ const Navbar = () => {
         <motion.div
           initial={{ scale: 0, opcacity: 0, x: '-50%', y: '-50%' }}
           animate={{ scale: 1, opacity: 1 }}
-          className="min-w-[75vw] flex flex-col justify-between z-30 items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32 xs:px-4"
+          className="min-w-[75vw] flex flex-col justify-between z-30 items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32"
         >
           <nav className="flex flex-col items-center justify-center ">
             <CustomMobileLink href="/" className=" dark:text-dark" title="Accueil" toggle={handleClick} />
@@ -193,7 +193,11 @@ const Navbar = () => {
                 onClick={() => setMode(mode === 'light' ? 'dark' : 'light')}
                 className="ml-3 flex items-center justify-center rounded-full p-1 sm:mx-1"
               >
-                {mode === 'dark' ? <SunIcon className={'fill-primary w-6 mr-3'} /> : <MoonIcon className={'fill-dark lg:fill-light w-6 mr-3'} />}
+                {mode === 'dark' ? (
+                  <SunIcon className={'fill-primary w-6 mr-3 sm:mx-1'} />
+                ) : (
+                  <MoonIcon className={'fill-dark lg:fill-light w-6 mr-3 sm:mx-1'} />
+                )}
               </button>
             </nav>
           </div>
