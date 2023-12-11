@@ -23,7 +23,7 @@ export const metadata = {
         url: './android-chrome-192x192.png',
         width: 192,
         height: 192,
-        alt: 'My custom alt'
+        alt: 'Logo de Clément FELICES'
       }
     ],
     icons: {
@@ -38,9 +38,9 @@ export const metadata = {
     locale: 'fr_FR',
     type: 'website'
   },
-  title: 'Clément FELICES, Intégrateur Web HTML, CSS, Sass, Javascript, React, Tailwind CSS',
+  title: 'Clément FELICES, Intégration et développement Web',
   description:
-    'Clément FELICES, développeur web passionné en Gironde, crée des expériences numériques exceptionnelles. Expertise, créativité et solutions sur mesure',
+    'Clément FELICES, développeur web passionné en Gironde, crée des expériences numériques exceptionnelles. Expertise, créativité et solutions sur mesure  pour vos sites Internet. Création, mise à jour, dépannage de votre site.',
   favicon: '/favicon.ico',
   ogImage: './android-chrome-512x512.png',
   twitterImage: './android-chrome-512x512.png',

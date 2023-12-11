@@ -9,7 +9,7 @@ const HireMe = () => {
         <Link
           aria-label="Email link 2"
           href="mailto:clement.felices@gmail.com"
-          className="flex items-center justify-center absolute left-1/2   -translate-x-1/2 w-20 h-20 rounded-full"
+          className="flex items-center justify-center absolute left-1/2 -translate-x-1/2 w-20 h-20 rounded-full"
         >
           <Handshake className="dark:fill-primary" />
         </Link>
