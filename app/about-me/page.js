@@ -52,7 +52,9 @@ const Page = () => {
               <br />
               <br />
               Mon expertise dans la gestion de projets que ce soit pour la rénovation complète de mon domicile ou le développement d&apos;une
-              application web, s&apos;est démarquée par l&apos;utilisation efficace d&apos;outils tels que le kanban.
+              application web, s&apos;est démarquée par l&apos;utilisation efficace d&apos;outils tels que le kanban. Je suis heureux de pouvoir
+              annoncer que j&apos;ai tenu mes engagements sur les travaux de ma maison, car ils sont terminés à ce jour mais aussi envers mes proches
+              et ma famille qui m&apos;ont soutenu dans la réussite de ce projet de reconversion.
               <br />
               <br />
               Passionné par React, je reste avide de nouvelles technologies pour enrichir mes connaissances en développement.
@@ -65,45 +67,35 @@ const Page = () => {
               <span className="inline-block normal-case text-7xl font-bold">
                 <AnimatedNumber toNumber={9} />
               </span>
-              <h2 className="text-xl bold bg-primary normal-case text-dark dark:text-light mx-auto px-2 rounded-full">
-                mois de formation
-              </h2>
+              <h2 className="text-xl bold bg-primary normal-case text-dark dark:text-light mx-auto px-2 rounded-full">mois de formation</h2>
             </div>
 
             <div className="flex flex-col items-center">
               <span className="inline-block normal-case text-7xl font-bold">
                 <AnimatedNumber toNumber={12} />
               </span>
-              <h2 className="text-xl bold bg-primary  normal-case text-dark dark:text-light px-4 rounded-full">
-                projets complétés
-              </h2>
+              <h2 className="text-xl bold bg-primary  normal-case text-dark dark:text-light px-4 rounded-full">projets complétés</h2>
             </div>
 
             <div className="flex flex-col items-center">
               <span className="inline-block normal-case text-7xl font-bold">
                 <AnimatedNumber toNumber={15} />
               </span>
-              <h2 className="text-xl bold bg-primary normal-case text-dark dark:text-light px-4 rounded-full">
-                certifications reçues
-              </h2>
+              <h2 className="text-xl bold bg-primary normal-case text-dark dark:text-light px-4 rounded-full">certifications reçues</h2>
             </div>
 
             <div className="flex flex-col items-center">
               <span className="inline-block normal-case text-7xl font-bold">
                 <AnimatedNumber toNumber={1} />
               </span>
-              <h2 className="text-xl bold bg-primary normal-case text-dark dark:text-light px-4 rounded-full">
-                diplôme obtenu
-              </h2>
+              <h2 className="text-xl bold bg-primary normal-case text-dark dark:text-light px-4 rounded-full">diplôme obtenu</h2>
             </div>
 
             <div className="flex flex-col items-center">
               <span className="inline-block normal-case text-7xl font-bold">
                 <AnimatedNumber toNumber={1000} />
               </span>
-              <h2 className="text-xl bold bg-primary normal-case text-dark dark:text-light px-4 rounded-full">
-                % de motivation
-              </h2>
+              <h2 className="text-xl bold bg-primary normal-case text-dark dark:text-light px-4 rounded-full">% de motivation</h2>
             </div>
           </div>
         </div>
