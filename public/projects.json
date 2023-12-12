@@ -1,18 +1,6 @@
 {
   "projects": [
     {
-      "id": "proj1",
-      "title": "Riding Cities",
-      "cover": "/assets/img/thumb_projects/projet1.webp",
-      "source": "OpenClassRooms",
-      "explain": "Mise à jour du site Internet d'une association sportive de skate-board fictive. Rajout d'un membre et création/modification des plannings des entraînements en HTML.",
-      "tags": ["HTML"],
-      "links": {
-        "codeLink": "",
-        "demoLink": ""
-      }
-    },
-    {
       "id": "proj2",
       "title": "Booki",
       "cover": "/assets/img/thumb_projects/projet2.webp",
@@ -37,18 +25,6 @@
       }
     },
     {
-      "id": "proj4",
-      "title": "PrinIt",
-      "cover": "/assets/img/thumb_projects/projet4.webp",
-      "source": "OpenClassRooms",
-      "explain": "Print-it est une imprimerie fictive qui souhaite dynamiser son site internet. J'ai du implémenter un slider (caroussel d'image) en Javascript sur leur site HTML & CSS",
-      "tags": ["Javascript"],
-      "links": {
-        "codeLink": "https://github.com/Titou360/P5_Printit",
-        "demoLink": "https://titou360.github.io/P5_Printit/"
-      }
-    },
-    {
       "id": "proj5",
       "title": "Sophie Bluel : Architecte",
       "cover": "/assets/img/thumb_projects/projet5.webp",
@@ -70,18 +46,6 @@
       "links": {
         "codeLink": "https://github.com/Titou360/P8-Kasa",
         "demoLink": "https://titou360.github.io/P8-Kasa/"
-      }
-    },
-    {
-      "id": "proj7",
-      "title": "Nina Carducci : Photographe",
-      "cover": "/assets/img/thumb_projects/projet7.webp",
-      "source": "OpenClassRooms",
-      "explain": "Nina est une photographe fictive qui souhaite une amélioration de son site Internet : Optimisations & mise en place de SEO m'ont permis d'atteindre ses objectifs.",
-      "tags": ["HTML", "CSS", "Javascript", "SEO"],
-      "links": {
-        "codeLink": "https://github.com/Titou360/P9-Nina",
-        "demoLink": "https://titou360.github.io/P9-Nina/"
       }
     },
     {

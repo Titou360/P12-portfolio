@@ -20,7 +20,7 @@ const ProjectsDetails = () => {
   return (
     <>
       <section id="projects" className="w-full pt-2 mb-6 flex flex-col items-center text-dark dark:text-light">
-        <AnimatedText className="normal-case" text="Découvrez mes projets" />
+        <AnimatedText className="normal-case xl:!text-5xl lg:!text:6xl md:!text-5xl sm:!text-3xl" text="Découvrez mes projets" />
 
         <div className="w-full flex items-center justify-center flex-col">
           <FilterTags onFilterChange={handleFilterChange} />
