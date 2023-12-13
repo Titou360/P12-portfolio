@@ -5,22 +5,23 @@ import './globals.css';
 import backgroundImage from '../public/assets/img/main-bg.webp';
 
 const inter = Inter({ subsets: ['latin'] });
+const { NEXT_PUBLIC_BASE_URL } = process.env;
 
 export const metadata = {
   openGraph: {
     title: 'Clément FELICES, Intégrateur Web',
     description:
-      'Clément FELICES, développeur web passionné en Gironde, crée des expériences numériques exceptionnelles. Expertise, créativité et solutions sur mesure',
-    url: 'https://p12-portfolio.vercel.app/',
-    siteName: 'Clément FELICES, Intégrateur Web',
+      'Clément FELICES, développeur web passionné basé en Gironde, crée des expériences numériques exceptionnelles. Expertise, créativité, solutions sur mesure, réparations, mise à jour, une pléïade de services',
+    url: 'https://clement-felices-portfolio.vercel.app/',
+    siteName: 'Clément FELICES, Développeur Web',
     images: [
       {
-        url: './android-chrome-512x512.png',
+        url: `${NEXT_PUBLIC_BASE_URL}android-chrome-512x512.png`,
         width: 512,
         height: 512
       },
       {
-        url: './android-chrome-192x192.png',
+        url: `${NEXT_PUBLIC_BASE_URL}android-chrome-192x192.png`,
         width: 192,
         height: 192,
         alt: 'Logo de Clément FELICES'
@@ -28,11 +29,11 @@ export const metadata = {
     ],
     icons: {
       icon: './favicon-32x32.png',
-      shortcut: './apple-touch-icon.png',
-      apple: './apple-touch-icon.png',
+      shortcut: `${NEXT_PUBLIC_BASE_URL}/apple-touch-icon.png`,
+      apple: `${NEXT_PUBLIC_BASE_URL}/apple-touch-icon.png`,
       other: {
         rel: 'apple-touch-icon-precomposed',
-        url: './apple-touch-icon.png'
+        url: `${NEXT_PUBLIC_BASE_URL}apple-touch-icon.png`
       }
     },
     locale: 'fr_FR',
@@ -41,10 +42,10 @@ export const metadata = {
   title: 'Clément FELICES, Intégration et développement Web',
   description:
     'Clément FELICES, développeur web passionné en Gironde, crée des expériences numériques exceptionnelles. Expertise, créativité et solutions sur mesure  pour vos sites Internet. Création, mise à jour, dépannage de votre site.',
-  favicon: '/favicon.ico',
-  ogImage: './android-chrome-512x512.png',
-  twitterImage: './android-chrome-512x512.png',
-  siteUrl: 'https://p12-portfolio.vercel.app/'
+  favicon: `${NEXT_PUBLIC_BASE_URL}favicon.ico`,
+  ogImage: `${NEXT_PUBLIC_BASE_URL}android-chrome-512x512.png`,
+  twitterImage: `${NEXT_PUBLIC_BASE_URL}android-chrome-512x512.png`,
+  siteUrl: 'https://clement-felices-portfolio.vercel.app/'
 };
 
 export default function RootLayout({ children }) {

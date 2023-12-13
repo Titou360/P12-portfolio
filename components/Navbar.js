@@ -63,7 +63,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="w-full bg-light dark:bg-dark px-32 py-8 font-medium flex items-center justify-between shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] dark:border-solid dark:border-primary dark:border-b-2 relative">
+    <header className="w-full bg-light dark:bg-slate-800 px-32 py-8 font-medium flex items-center justify-between shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] dark:border-solid dark:border-primary dark:border-b-2 relative">
       <button
         aria-label="button hamburger menu"
         className="absolute top-5 left-5 flex-col justify-center items-center hidden lg:flex"
