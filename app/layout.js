@@ -16,12 +16,12 @@ export const metadata = {
     siteName: 'Clément FELICES, Développeur Web',
     images: [
       {
-        url: `${NEXT_PUBLIC_BASE_URL}android-chrome-512x512.png`,
+        url: 'https://clement-felices-portfolio.vercel.app/android-chrome-512x512.png',
         width: 512,
         height: 512
       },
       {
-        url: `${NEXT_PUBLIC_BASE_URL}android-chrome-192x192.png`,
+        url: 'https://clement-felices-portfolio.vercel.app/android-chrome-192x192.png',
         width: 192,
         height: 192,
         alt: 'Logo de Clément FELICES'
@@ -29,11 +29,11 @@ export const metadata = {
     ],
     icons: {
       icon: './favicon-32x32.png',
-      shortcut: `${NEXT_PUBLIC_BASE_URL}apple-touch-icon.png`,
-      apple: `${NEXT_PUBLIC_BASE_URL}/apple-touch-icon.png`,
+      shortcut: 'https://clement-felices-portfolio.vercel.app/apple-touch-icon.png',
+      apple: 'https://clement-felices-portfolio.vercel.app/apple-touch-icon.png',
       other: {
         rel: 'apple-touch-icon-precomposed',
-        url: `${NEXT_PUBLIC_BASE_URL}apple-touch-icon.png`
+        url: 'https://clement-felices-portfolio.vercel.app/apple-touch-icon.png'
       }
     },
     locale: 'fr_FR',
@@ -42,9 +42,9 @@ export const metadata = {
   title: 'Clément FELICES, Intégration et développement Web',
   description:
     'Clément FELICES, développeur web passionné en Gironde, crée des expériences numériques exceptionnelles. Expertise, créativité et solutions sur mesure  pour vos sites Internet. Création, mise à jour, dépannage de votre site.',
-  favicon: `${NEXT_PUBLIC_BASE_URL}favicon.ico`,
-  ogImage: `${NEXT_PUBLIC_BASE_URL}android-chrome-512x512.png`,
-  twitterImage: `${NEXT_PUBLIC_BASE_URL}android-chrome-512x512.png`,
+  favicon: 'https://clement-felices-portfolio.vercel.app/favicon.ico',
+  ogImage: 'https://clement-felices-portfolio.vercel.app/android-chrome-512x512.png',
+  twitterImage: 'https://clement-felices-portfolio.vercel.app/android-chrome-512x512.png',
   siteUrl: 'https://clement-felices-portfolio.vercel.app/'
 };
 
