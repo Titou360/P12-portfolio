@@ -29,7 +29,7 @@ export const metadata = {
     ],
     icons: {
       icon: './favicon-32x32.png',
-      shortcut: `${NEXT_PUBLIC_BASE_URL}/apple-touch-icon.png`,
+      shortcut: `${NEXT_PUBLIC_BASE_URL}apple-touch-icon.png`,
       apple: `${NEXT_PUBLIC_BASE_URL}/apple-touch-icon.png`,
       other: {
         rel: 'apple-touch-icon-precomposed',
